@@ -1,0 +1,125 @@
+.navbar {
+    background-color: #008080; 
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    color: white;
+    display: block; 
+    transition: background-color 0.3s ease; 
+}
+
+.navbar-nav > li > a:hover {
+    background-color: #005757 !important; 
+    color: #ffffff !important; 
+}
+
+.navbar-nav .dropdown-menu > li > a {
+    color: white;
+    display: block; 
+    padding: 10px; 
+    transition: background-color 0.3s ease; 
+}
+
+.navbar-nav .dropdown-menu > li > a:hover,
+.navbar-nav > li > a:hover {
+    background-color: #005757 !important;
+    color: #ffffff !important; 
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-content {
+    font-style: italic;
+    padding: 20px;
+    color: white;
+    background-color: #818589; 
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    margin-bottom: 10px; 
+}
+
+.navbar-brand h1 {
+    font-family: "Lora", serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 4px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-toggle:focus {
+    outline: 0;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+}
+
+@media (min-width: 767px) {
+    .navbar-toggle {
+        display: none;
+    }
+}
+
+.navbar-nav {
+    margin: 7.5px -15px;
+}
+
+.navbar-nav > li {
+    display: block; 
+}
+
+.navbar-nav .dropdown-menu {
+    width: 100%;
+    text-align: left;
+    background-color: #008080; 
+}
+
+.navbar-nav .dropdown-menu > li > a {
+    color: white;
+    display: block; 
+    padding: 10px; 
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .dropdown-menu {
+        width: 100%;
+        text-align: left;
+        background-color: #008080; 
+    }
+}
